@@ -7,7 +7,7 @@ import telegram_bot
 
 
 async def start_uvicorn(app):
-    uvicorn_config = uvicorn.Config(app=app, host="0.0.0.0", port=8080)
+    uvicorn_config = uvicorn.Config(app=app, host="0.0.0.0", port=8080, proxy_headers=True)
     server = uvicorn.Server(config=uvicorn_config)
     await server.serve()
 

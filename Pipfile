@@ -9,6 +9,7 @@ python-dotenv = "*"
 fastapi = "*"
 uvicorn = "*"
 couchdb = "*"
+requests = "*"
 
 [dev-packages]
 

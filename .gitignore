@@ -1,1 +1,4 @@
 .env
+Pipfile.lock
+test_api.py
+test_img.png
